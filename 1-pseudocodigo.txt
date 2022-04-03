@@ -1,0 +1,38 @@
+Initialize the program
+
+Open function getOffset(el)
+
+var x = 0
+var y = 0
+
+while( Evaluates that the element is different to OffsetLeft and OffsetTop)
+
+    _x = OffsetLeft - scrollLeft
+    _y = OffsetTop - scrollTop
+
+    el = offsetParent 
+
+    Close while cicle
+
+    return the  position (top: _y, left: _x)
+
+Close the function
+
+
+//Get the elements from the DOM with the function that have been create 'getOffset'
+
+Create the function readPosition 
+
+var x = Assign the position lef to x //getOffset( document.getElementById('div') ).left;
+var y = Assign the position top to y  //getOffset( document.getElementById('div') ).top;
+
+console.log(Write the positions in console)
+
+Add 'active' class form the DOM 
+
+Close the funcion
+
+Remove 'active' class from DOM
+
+
+End the program
